@@ -36,6 +36,7 @@ main {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    gap: 3rem;
 
 }
 
@@ -47,4 +48,40 @@ main {
 
 p, h2 {
     color: white;
+}
+
+.small-card button {
+    color: white;
+    background-color: rgb(189, 16, 16);
+    width: fit-content;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 6px;
+    margin-top: 1rem;
+}
+
+.big-poster {
+    display: flex;
+    justify-content: center;;
+    flex-wrap: wrap;
+    gap: 1rem;
+    
+}
+
+.big-card { 
+    
+    max-width: 30vw;
+    display: flex;
+    flex-direction: column;
+    padding-top: 3rem;
+    
+}
+
+.big-card button {
+    background-color: rgb(189, 16, 16);
+    color: white;
+    width: fit-content;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 5px;
 }
